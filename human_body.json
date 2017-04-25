@@ -1,0 +1,38 @@
+{
+  "label" : "Human Body",
+  "description" : "Injury Diagram",
+  "module" : "human_body",
+  "thumbnail" : "blank_a4.png",
+  "sections" : [ {
+    "name" : "Script",
+    "expandable" : false,
+    "properties" : [ {
+      "name" : "module",
+      "label" : "Module",
+      "description" : "Module name",
+      "mandatory" : true,
+      "defaultValue" : "human_body",
+      "readOnly" : true,
+      "type" : "TEXT",
+      "transparent" : false
+    }, {
+      "name" : "css",
+      "label" : "CSS Path",
+      "description" : "CSS Path",
+      "mandatory" : true,
+      "defaultValue" : "HumanBody.css",
+      "readOnly" : false,
+      "type" : "PATH",
+      "transparent" : false
+    }, {
+      "name" : "script",
+      "label" : "Script Path",
+      "description" : "Script path",
+      "mandatory" : true,
+      "defaultValue" : "d3.min.js",
+      "readOnly" : false,
+      "type" : "PATH",
+      "transparent" : false
+    } ]
+  } ]
+}
